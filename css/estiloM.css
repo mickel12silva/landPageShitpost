@@ -1,0 +1,57 @@
+/* configurações gerais dentro do <body>*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* background fundo do site */
+    background-color: #6d695c;
+
+    margin: 0;
+    color: #000000;
+    /* color muda a cor do texto*/
+
+}
+
+/* menu do topo */
+.menu {
+    background-color: #6d695c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #070707;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* formatando a tag href */
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #c3c0c0;
+    font-weight: bold;
+
+}
+
+/* titulo principal */
+.cabecalho {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Area dos cards */
+.container-memes {
+    display: grid;
+    /* criando tres colunas na secao dos memes */
+    grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
