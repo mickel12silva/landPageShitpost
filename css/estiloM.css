@@ -3,7 +3,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     /* background fundo do site */
-    background-color: #6d695c;
+    background-color: #fffffe;
 
     margin: 0;
     color: #000000;
@@ -13,7 +13,7 @@ body {
 
 /* menu do topo */
 .menu {
-    background-color: #6d695c;
+    background-color: #ffffff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body {
 .links a {
     margin-left: 20px;
     text-decoration: none;
-    color: #c3c0c0;
+    color: #0b0b0b;
     font-weight: bold;
 
 }
@@ -52,6 +52,30 @@ body {
     margin: 0 auto;
 }
 
+.rodape{
+    background-color: #ffffff;
+text-align: center;
+padding: 30px;
+margin-top: 40px;
+border-top: 2px;
+}
+
+.redes-sociais{
+    display: flex;
+justify-content: center;
+gap: 25px;
+margin-top: 15px;
+}
+
+.logo-social (
+    width: 40px; /* Largura do ícone */
+    height: 40px; /* Altura do ícone */
+    object-fit: contain; /* Garante que o desenho do logo apareça inteiro */
+    transition: transform 0.3s ease;  
+)
 
 
-
+.link-social{
+    text-decoration:none;
+    display: inline-block;
+}
